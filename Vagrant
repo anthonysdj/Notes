@@ -1,0 +1,5 @@
+vagrant init box-name -> Start new projenct( *create directory for each project )
+vagrant up [vm-guest-name] -> Start virtual machine
+vagrant ssh [vm-guest-name] -> Connect to a virtual machine
+vagrant halt [vm-guest-name] -> Power off a virtual machine
+vagrant destroy [vm-guest-name] -> Get rid of a virtual machine / project you are working on
