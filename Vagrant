@@ -3,3 +3,8 @@ vagrant up [vm-guest-name] -> Start virtual machine
 vagrant ssh [vm-guest-name] -> Connect to a virtual machine
 vagrant halt [vm-guest-name] -> Power off a virtual machine
 vagrant destroy [vm-guest-name] -> Get rid of a virtual machine / project you are working on
+
+Forwarded Port( to use in your host machine ):
+http://127.0.0.1:<your-port>
+-- OR --
+localhost:<your-port>
